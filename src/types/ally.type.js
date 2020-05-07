@@ -1,0 +1,1 @@
+export const SET_ALLIES = 'SET_ALLIES';

@@ -1,0 +1,45 @@
+.field-content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.button-content {
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+    
+    label {
+        width: 100%;
+    }
+
+    .button {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: #F0EEEE;
+        border-radius: 5px;
+        cursor: pointer;
+        margin: 10px;
+        padding: 5px;
+        font-size: 10px;
+
+        span {
+            padding: 0;
+        }
+        
+        .icon {
+            color: #9B9B9B;
+        }
+
+        .MuiCheckbox-colorSecondary.Mui-checked {
+            color: #4A90E2 !important;
+        }
+
+        svg {
+            padding: 5px;
+        }
+    }
+}
+

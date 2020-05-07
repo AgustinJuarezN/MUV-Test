@@ -1,0 +1,36 @@
+.box {
+    background-color: #fff;
+    height: 100px;
+    padding: 20px;
+    border: 1px solid #D8D8D8;
+
+    .title {
+        span {
+            font-weight: bold;
+            font-size:12px;
+        }
+    }
+
+    .result {
+        padding: 10px 0;
+        span {
+            font-size: 26px;
+        }
+    }
+
+    .view {
+        text-align: right;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        span {
+            font-size: 10px;
+            cursor: pointer;
+        }
+
+        svg {
+            cursor: pointer;
+        }
+    }
+}

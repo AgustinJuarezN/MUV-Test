@@ -1,0 +1,124 @@
+.allies {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  .content {
+    width: 100%;
+    .input {
+      border: 1px solid #d8d8d8;
+      padding: 0 10px;
+      width: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      div {
+        width: 100%;
+      }
+
+      input {
+        font-size: 12px;
+        color: #000;
+        width: 100%;
+      }
+
+      button {
+        padding: 5px;
+      }
+    }
+
+    .search {
+      width: 50%;
+      .items-search {
+        padding: 0;
+        width: 321px;
+        margin: 0;
+        position: absolute;
+        z-index: 99999;
+        li {
+          background-color: #fff;
+          box-shadow: 0 1px 6px rgba(57, 73, 76, 0.35);
+          list-style: none;
+          padding: 0 10px;
+          height: 35px;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          cursor: pointer;
+        }
+
+        li:hover {
+          background-color: rgba(24, 24, 24, 24);
+          color: white;
+        }
+      }
+    }
+    .chips-content {
+      padding: 20px 0;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      .chip {
+        margin: 0 5px;
+      }
+    }
+
+    .addAlly {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      color: #f97f00;
+      cursor: pointer;
+      width: 120px;
+      font-size: 12px;
+      svg {
+        padding: 0 5px;
+      }
+    }
+
+    .addAllyForm {
+      width: 100%;
+      background-color: #ededed;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 20px 0;
+      .close {
+        color: #afafaf;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        svg {
+          padding: 0 10px;
+          cursor: pointer;
+        }
+      }
+      .input-content {
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 0 20px;
+
+        .chips-content {
+          padding: 0 20px 0 0;
+        }
+      }
+    }
+  }
+}
+
+.error-message .MuiSnackbarContent-root {
+    background-color: red !important;
+    color: white !important;
+}
+
+.success-message .MuiSnackbarContent-root {
+    background-color: #EAFFC2 !important;
+    color: #376702 !important;
+}

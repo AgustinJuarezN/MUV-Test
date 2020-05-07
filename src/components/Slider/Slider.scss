@@ -1,0 +1,45 @@
+.slider-content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+
+    .slider {
+        width: 100%;
+        b {
+            font-size: 10px;
+            color: #A9A9A9;
+            padding: 5px 0;
+        }
+
+        .slider-style {
+            color: #D8D8D8;
+
+            .MuiSlider-track {
+                color:#F97E00;
+            }
+
+            .MuiSlider-thumb {
+                background-color: #fff;
+                border: 1px solid #CCCBCB;
+                width: 21px;
+                height: 21px;
+                margin-top: -10px;
+            }
+        }
+    }
+
+    .slider-info {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        div span {
+            font-size: 15px;
+            font-weight: bold;
+        }
+    }
+}

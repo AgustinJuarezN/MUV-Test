@@ -1,0 +1,32 @@
+import {
+  transition,
+  container
+} from "assets/jss/material-dashboard-react.js";
+
+const appStyle = () => ({
+  wrapper: {
+    position: "relative",
+    top: "0",
+    height: "100vh"
+  },
+  mainPanel: {
+    overflow: "auto",
+    position: "relative",
+    float: "right",
+    ...transition,
+    maxHeight: "100%",
+    width: "100%",
+    overflowScrolling: "touch"
+  },
+  content: {
+    marginTop: "30px",
+    padding: "0",
+    minHeight: "calc(100vh - 123px)"
+  },
+  container,
+  map: {
+    marginTop: "70px"
+  }
+});
+
+export default appStyle;

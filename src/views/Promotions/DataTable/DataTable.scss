@@ -1,0 +1,38 @@
+
+.table-promo {
+
+    .MuiTableCell-root {
+        padding: 5px;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    span {
+        font-size: 12px !important;
+    }
+   
+    table {
+        tr th, tr td {
+            padding: 15px;
+        }
+    }
+    .active-promo, .inactive-promo {
+        color: #fff;
+        text-align: center;
+        width: 60px;
+        min-width: 60px;
+        font-size: 12px;
+        line-height: 11px;
+        border-radius: 6px;
+        padding: 10px;
+    }
+    .active-promo {
+        background-color: #77B103;
+    }
+    
+    .inactive-promo {
+        background-color: #BA0638;
+    }
+}
+
+

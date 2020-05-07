@@ -1,0 +1,54 @@
+
+.content-labels {
+    div:nth-child(1) {
+        width: 230px;
+    }
+
+    div {
+        span {
+            font-size: 12px;
+            color: #929292;
+        }
+    }
+}
+.container-filter {
+    box-sizing: border-box;
+    width: 339px;
+    border: 1px solid #CCCBCB;
+    border-radius: 5px;
+    background-color: #fff;
+
+    .MuiFormControl-marginNormal {
+        margin: 0;
+    }
+
+    .filter {
+        .MuiInput-underline:before {
+            border-bottom: none !important;
+        }
+        width: 170px;        
+        height: 44px;
+
+        .MuiInput-root {
+            height: 100%;
+
+            input {
+                text-align: center;
+            }
+        }
+    }
+
+    .button-filter {
+        width: 78px;
+        background-color:#EDEDED;
+        border: 1px solid #CCCBCB;
+        height: 44px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        font-size: 12px;
+        font-weight: bold;
+    }
+}
+

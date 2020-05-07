@@ -1,0 +1,114 @@
+.limits-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: auto;
+  .addLimit {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: #f97f00;
+    width: 100%;
+    font-size: 12px;
+    padding: 20px;
+
+    .button {
+      cursor: pointer;
+      width: 120px;
+      display: flex;
+      align-items: flex-start;
+      justify-content: flex-start;
+      svg {
+        padding: 0 5px;
+      }
+    }
+  }
+
+  .new-limit {
+    background-color: #ededed;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 20px;
+    margin: 10px 0;
+    .close {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      width: 100%;
+
+      svg {
+        cursor: pointer;
+        padding: 0 10px;
+      }
+    }
+
+    .content {
+      width: 100%;
+      display: flex;
+      .select-content {
+        padding: 25px 10px 0 10px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+        .select {
+          height: 43px;
+          background-color: #fff;
+          font-size: 12px;
+          width: 200px;
+          .MuiSelect-root {
+            padding: 0px;
+            margin: 10px;
+          }
+        }
+        div {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+.formDate {
+  .container-filter {
+    .filter {
+      width: 160px;
+      margin: 0 10px;
+    }
+  }
+}
+
+.formUser {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 0 20px;
+
+  .wrapper {
+    width: 300px;
+  }
+}
+
+.formGeolocation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+  .slider {
+    width: 100px;
+    padding: 0 20px;
+  }
+
+  .input {
+    margin-bottom: 25px;
+  }
+}

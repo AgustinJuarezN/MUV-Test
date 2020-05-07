@@ -1,0 +1,17 @@
+.pagination-bottom-table {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+    .view-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 10px;
+    }
+
+    .pages-content {
+        padding: 20px;
+    }
+}

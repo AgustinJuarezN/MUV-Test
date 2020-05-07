@@ -1,0 +1,22 @@
+.field {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 20px;
+
+    .input-info {
+        input {
+            height: 33px;
+            padding: 0 10px;
+            background-color: #fff;
+        }
+       
+    }
+
+    b {
+        font-size: 10px;
+        color: #A9A9A9;
+        padding: 5px 0;
+    }
+}
